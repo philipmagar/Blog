@@ -26,7 +26,9 @@ const Newsletter = () => {
             <div className="mx-8 sm:mx-20 xl:mx-32 grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24 mb-16">
                 {/* Column 1: Logo and About */}
                 <div className="flex flex-col gap-6">
-                    <img src={logo} alt="Blogify Logo" className="w-20 sm:w-24 cursor-pointer" />
+                    <span className="text-3xl harlow-style text-primary cursor-pointer tracking-wide">
+                        Blog
+                    </span>
                     <p className="text-gray-600 text-sm leading-relaxed max-w-xs font-medium">
                         Empowering the world's most influential voices to lead the global discourse. Your thoughts are the fuel for tomorrow's reality. Command your stage.
                     </p>
@@ -65,7 +67,7 @@ const Newsletter = () => {
             {/* Copyright Section */}
             <div className="border-t border-gray-100 pt-10 text-center">
                 <p className="text-gray-400 text-xs">
-                    &copy; {new Date().getFullYear()} Blogify Inc. All rights reserved. Designed by Philip.
+                    &copy; {new Date().getFullYear()} ब्लग Inc. All rights reserved. Designed by Philip.
                 </p>
             </div>
         </footer>

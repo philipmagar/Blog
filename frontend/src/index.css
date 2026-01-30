@@ -1,5 +1,6 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import "tailwindcss";
 
 * {
   font-family: "Outfit", sans-serif;
@@ -10,4 +11,9 @@
 }
 @theme {
   --color-primary: #5044e5;
+}
+@utility harlow-style {
+  font-family: "Lobster", cursive;
+  font-style: italic;
+  font-weight: bold;
 }
