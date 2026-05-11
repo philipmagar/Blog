@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { BLOG_DATA } from "../data";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 import { motion } from "motion/react";
 import { Facebook, Twitter, Linkedin, Link, Bookmark } from "lucide-react";
 
@@ -37,7 +38,7 @@ const Blog = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white dark:bg-slate-950 transition-colors duration-300">
             <Navbar />
             <main className="mx-8 sm:mx-20 xl:mx-64 py-10">
                 <button
@@ -146,6 +147,7 @@ const Blog = () => {
                 </div>
             </main>
             <Newsletter />
+            <Footer />
         </div>
     );
 };
